@@ -1,10 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Projeto E-Commmerce</title>
-</head>
-<body>
-	<h1><center>Projeto E-Commerce</center></h1>
-	<p>Início do projeto de website do curso de PHP 7 da Hcode.</p>
-</body>
-</html>
+<?php 
+
+require_once("vendor/autoload.php");
+
+$app = new \Slim\Slim();
+
+$app->config('debug', true);
+
+$app->get('/', function() {
+
+	$sql = new Hcode\DB\Sql();
+
+	$results = $sql->select("SELECT * FROM tb_users");
+
+	echo json_encode($results);
+
+});
+
+$app->run();
+
+?>
