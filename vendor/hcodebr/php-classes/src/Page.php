@@ -36,6 +36,7 @@ class Page {
 		foreach ($data as $key => $value) {
 			$this->tpl->assign($key, $value);
 		}
+		
 	}
 
 	public function setTpl($name, $data = array(), $returnHTML = false) 
