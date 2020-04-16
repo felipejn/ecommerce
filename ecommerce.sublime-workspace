@@ -1,0 +1,310 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Pa",
+				"PageAdmin"
+			],
+			[
+				"tlp",
+				"tpl_dir"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"opt",
+				"opts"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"session_re",
+				"session_regenerate_id"
+			],
+			[
+				"session_d",
+				"session_destroy"
+			],
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"preg",
+				"preg_replace"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"var_",
+				"var_export"
+			],
+			[
+				"opens",
+				"openssl"
+			],
+			[
+				"openssl",
+				"openssl_decrypt"
+			],
+			[
+				"open",
+				"openssl"
+			],
+			[
+				"SECRET",
+				"SECRET_IV"
+			],
+			[
+				"openssl_",
+				"openssl_encrypt"
+			],
+			[
+				"pos",
+				"_POST"
+			],
+			[
+				"html",
+				"htmlentities"
+			],
+			[
+				"http_buil",
+				"http_build_query"
+			],
+			[
+				"curl",
+				"curl_setopt"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"is",
+				"is_dir"
+			],
+			[
+				"mysqli",
+				"mysqli_connect"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/felipe/Documents/projeto_website"
+	],
+	"file_history":
+	[
+		"/Users/felipe/Documents/projeto_website/views/admin/header.html",
+		"/Users/felipe/Documents/projeto_website/views/admin/index.html",
+		"/Users/felipe/Documents/projeto_website/views/admin/footer.html",
+		"/Users/felipe/Documents/projeto_website/res/admin/starter.html",
+		"/Users/felipe/Documents/projeto_website/index.php",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Page.php",
+		"/Users/felipe/Desktop/Coding/Coding Links.html",
+		"/Applications/MAMP/conf/apache/extra/httpd-vhosts.conf",
+		"/Applications/MAMP/conf/apache/httpd.conf",
+		"/Users/felipe/Documents/projeto_website/.htaccess",
+		"/Users/felipe/Desktop/Coding/99 - Configurando o Projeto/httpd-vhosts.conf",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/PageAdmin.php",
+		"/Users/felipe/Dropbox/projeto_website/views/footer.html",
+		"/Users/felipe/Dropbox/projeto_website/views/index.html",
+		"/Users/felipe/Dropbox/projeto_website/views/header.html",
+		"/Users/felipe/Dropbox/projeto_website/views/res/site/index.html",
+		"/Users/felipe/Dropbox/projeto_website/index.php",
+		"/Users/felipe/Dropbox/projeto_website/vendor/hcodebr/php-classes/src/Page.php",
+		"/Users/felipe/Dropbox/projeto_website/vendor/autoload.php",
+		"/Users/felipe/Dropbox/projeto_website/vendor/hcodebr/php-classes/composer.json",
+		"/Users/felipe/Dropbox/projeto_website/composer.json",
+		"/Users/felipe/Dropbox/projeto_website/vendor/hcodebr/php-classes/src/DB/Page.php",
+		"/Users/felipe/Dropbox/projeto_website/vendor/hcodebr/php-classes/src/DB/Sql.php",
+		"/Users/felipe/Downloads/Native.Instruments.Traktor.Pro.2.v2.6.2.MAC.OSX-UNION/union.nfo",
+		"/Users/felipe/Dropbox/projeto_website/testesql.php",
+		"/Applications/MAMP/htdocs/pdo/exemplo-01.php",
+		"/Applications/MAMP/conf/apache/original/extra/httpd-vhosts.conf",
+		"/Applications/MAMP/conf/apache/original/httpd.conf",
+		"/Users/felipe/Desktop/Coding Links.html",
+		"/Applications/MAMP/htdocs/ecommerce/index.php",
+		"/Applications/MAMP/htdocs/seguranca/exemplo-07.php",
+		"/Applications/MAMP/htdocs/seguranca/exemplo-06.php",
+		"/Applications/MAMP/htdocs/seguranca/teste.php",
+		"/Applications/MAMP/htdocs/xss/exemplo-01.php",
+		"/Applications/MAMP/htdocs/seguranca/exemplo-05.php",
+		"/Applications/MAMP/htdocs/cURL/exemplo-01.php",
+		"/Applications/MAMP/htdocs/seguranca/exemplo-02.php",
+		"/Applications/MAMP/htdocs/seguranca/exemplo-01.php",
+		"/Applications/MAMP/htdocs/gitscripts",
+		"/Applications/MAMP/htdocs/seguranca/cadastrar.php",
+		"/Applications/MAMP/htdocs/seguranca/exemplo-04.php",
+		"/Applications/MAMP/htdocs/seguranca/exemplo-03.php"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ecommerce.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 296.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
