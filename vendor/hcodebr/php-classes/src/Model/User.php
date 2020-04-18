@@ -66,6 +66,15 @@ class User extends Model
 
 	}
 
+	public static function listAll()
+	{
+
+		$sql = new Sql();
+		// Junta as duas tabelas para mostrar todas as informações dos usuários
+		return $sql->select("SELECT * FROM tb_users a INNER JOIN tb_persons b USING(idperson) ORDER BY b.desperson");
+
+	}
+
 }
 
 ?>
