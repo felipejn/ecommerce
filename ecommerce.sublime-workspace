@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"id",
+				"iduser"
+			],
+			[
+				"ver",
+				"verifyLogin"
+			],
+			[
+				"log",
+				"logout"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"sta",
+				"static"
+			],
+			[
+				"use",
+				"User"
+			],
+			[
+				"S",
+				"SESSION"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
 				"Pa",
 				"PageAdmin"
 			],
@@ -119,6 +155,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"materia",
+				"Material Theme: Activate theme"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
 		],
 		"width": 0.0
 	},
@@ -144,18 +188,29 @@
 	],
 	"file_history":
 	[
-		"/Users/felipe/Documents/projeto_website/views/admin/header.html",
-		"/Users/felipe/Documents/projeto_website/views/admin/index.html",
-		"/Users/felipe/Documents/projeto_website/views/admin/footer.html",
-		"/Users/felipe/Documents/projeto_website/res/admin/starter.html",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Model/User.php",
 		"/Users/felipe/Documents/projeto_website/index.php",
+		"/Users/felipe/Documents/projeto_website/views/admin/header.html",
+		"/Users/felipe/Documents/projeto_website/views/admin/login.html",
+		"/Users/felipe/Desktop/login.html",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/PageAdmin.php",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Model.php",
 		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Page.php",
+		"/Users/felipe/Documents/projeto_website/views/admin/footer.html",
+		"/Users/felipe/Desktop/admin-users.html",
+		"/Users/felipe/Desktop/htaccess",
+		"/Users/felipe/Documents/projeto_website/views/admin/users.html",
+		"/Users/felipe/Documents/projeto_website/ecommerce.sublime-project",
+		"/Users/felipe/Documents/projeto_website/res/admin/pages/examples/legacy-user-menu.html",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/DB/Sql.php",
+		"/Users/felipe/Documents/projeto_website/.htaccess",
+		"/Users/felipe/Documents/projeto_website/res/admin/pages/examples/login.html",
+		"/Users/felipe/Desktop/Coding/99 - Configurando o Projeto/httpd-vhosts.conf",
+		"/Users/felipe/Documents/projeto_website/views/admin/index.html",
+		"/Users/felipe/Documents/projeto_website/res/admin/starter.html",
 		"/Users/felipe/Desktop/Coding/Coding Links.html",
 		"/Applications/MAMP/conf/apache/extra/httpd-vhosts.conf",
 		"/Applications/MAMP/conf/apache/httpd.conf",
-		"/Users/felipe/Documents/projeto_website/.htaccess",
-		"/Users/felipe/Desktop/Coding/99 - Configurando o Projeto/httpd-vhosts.conf",
-		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/PageAdmin.php",
 		"/Users/felipe/Dropbox/projeto_website/views/footer.html",
 		"/Users/felipe/Dropbox/projeto_website/views/index.html",
 		"/Users/felipe/Dropbox/projeto_website/views/header.html",
@@ -189,7 +244,7 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -203,6 +258,49 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hres",
+			"https:",
+			"lista",
+			"//",
+			"getvalues",
+			"src",
+			"src=\"res",
+			"href=\"res",
+			"src",
+			"href",
+			"href=\"res",
+			"href",
+			"src",
+			"src=\"res/",
+			"src",
+			"href",
+			"href=\"res/",
+			"href",
+			"src",
+			"href",
+			"href=\"res/",
+			"\"admin",
+			"value",
+			"Users::",
+			"Users",
+			"6",
+			"examples",
+			"href",
+			"sign out",
+			"href=\"../../",
+			"src=\"../../",
+			"src",
+			"href=\"../../",
+			"href",
+			"sign out",
+			"sign ",
+			"signout",
+			"post",
+			"email",
+			"-f",
+			"src=\"../..",
+			"src",
+			"href=\"../../"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -210,6 +308,16 @@
 		"regex": false,
 		"replace_history":
 		[
+			"href",
+			"hres=\"/res",
+			"src=\"/res/",
+			"href=\"/res/",
+			"\"/admin",
+			"User::",
+			"User",
+			"href=\"res/admin/",
+			"src=\"res/admin/",
+			"href=\"res/admin/"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -227,7 +335,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -264,7 +372,7 @@
 	"project": "ecommerce.sublime-project",
 	"replace":
 	{
-		"height": 70.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -301,7 +409,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 296.0,
 	"status_bar_visible": true,
 	"template_settings":
