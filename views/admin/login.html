@@ -56,7 +56,7 @@
           </div>
           <!-- /.col -->
           <div class="col-4">
-            <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+            <button type="submit" class="btn btn-primary btn-block">Avançar</button>
           </div>
           <!-- /.col -->
         </div>
@@ -74,10 +74,10 @@
       <!-- /.social-auth-links -->
 
       <p class="mb-1">
-        <a href="forgot-password.html">I forgot my password</a>
+        <a href="/admin/forgot">Esqueci minha senha</a>
       </p>
       <p class="mb-0">
-        <a href="register.html" class="text-center">Register a new membership</a>
+        <a href="register.html" class="text-center">Novo registro de usuário</a>
       </p>
     </div>
     <!-- /.login-card-body -->
