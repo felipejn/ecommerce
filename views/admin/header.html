@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 3 | Legacy User Menu</title>
+  <title>Hcode Store - Admin</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -27,7 +27,7 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="/res/admin/index3.html" class="nav-link">Home</a>
+        <a href="/admin" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
         <a href="#" class="nav-link">Contact</a>
@@ -182,7 +182,7 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="/res/admin/index3.html" class="brand-link">
+    <a href="/admin" class="brand-link">
       <img src="/res/admin/dist/img/AdminLTELogo.png"
            alt="AdminLTE Logo"
            class="brand-image img-circle elevation-3"
@@ -216,6 +216,29 @@
                 <a href="/admin/users/create" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Novo Usuário</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-users"></i>
+              <p>
+                Produtos
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="/admin/categories" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Lista de Categorias</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/admin/categories/create" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Nova Categoria</p>
                 </a>
               </li>
             </ul>
