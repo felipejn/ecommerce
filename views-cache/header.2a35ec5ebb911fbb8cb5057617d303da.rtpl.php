@@ -241,6 +241,18 @@
                   <p>Nova Categoria</p>
                 </a>
               </li>
+              <li class="nav-item">
+                <a href="/admin/products" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Lista de Produtos</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/admin/products/create" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Novo Produto</p>
+                </a>
+              </li>                    
             </ul>
           </li>
         </ul>
