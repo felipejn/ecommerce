@@ -7,16 +7,20 @@ Use \Hcode\Model\Product;
 // ROOT GET
 $app->get('/', function() {
 
+	$products = Product::listAll();
+
 	$page = new Page();
 
-	$page->setTpl("index");
+	$page->setTpl("index", array(
+		"products"=>Product::checkList($products)
+	));
 
 });
 
-// Categories GET
+// Category GET
 $app->get("/categories/:idcategory", function($idcategory) {
 
-	$category = new Category;
+	$category = new Category();
 
 	$category->get((int)$idcategory);
 
@@ -26,6 +30,17 @@ $app->get("/categories/:idcategory", function($idcategory) {
 		"category"=>$category->getValues(),
 		"products"=>[]
 	));
+
+});
+
+// Product GET
+$app->get("/products/:idproduct", function($idproduct) {
+
+	$product = new Product();
+
+	$product->get((int)$idproduct);
+
+
 
 });
 

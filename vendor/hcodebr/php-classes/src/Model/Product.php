@@ -12,7 +12,23 @@ class Product extends Model
 	{
 
 		$sql = new Sql();
+		
 		return $sql->select("SELECT * FROM tb_products ORDER BY desproduct");
+
+	}
+
+	public static function checkList($list)
+	{
+
+		foreach ($list as &$row) {
+			
+			$p = new Product();
+			$p->setData($row);
+			$row = $p->getValues();
+
+		}
+
+		return $list;
 
 	}
 
@@ -108,11 +124,11 @@ class Product extends Model
 			$image = imagecreatefromjpeg($file["tmp_name"]);
 			break;
 
-			case gif:
+			case "gif":
 			$image = imagecreatefromgif($file["tmp_name"]);
 			break;
 
-			case png:
+			case "png":
 			$image = imagecreatefrompng($file["tmp_name"]);
 			break;
 
