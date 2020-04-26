@@ -209,17 +209,42 @@
               <li class="nav-item">
                 <a href="/admin/users" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Lista de Usuários</p>
+                  <p>Lista</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="/admin/users/create" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Novo Usuário</p>
+                  <p>Novo</p>
                 </a>
               </li>
             </ul>
           </li>
+          
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-edit"></i>
+              <p>
+                Categorias
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="/admin/categories" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Lista</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="/admin/categories/create" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Nova</p>
+                </a>
+              </li>                    
+            </ul>
+          </li>
+
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-box"></i>
@@ -230,31 +255,20 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="/admin/categories" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Lista de Categorias</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="/admin/categories/create" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Nova Categoria</p>
-                </a>
-              </li>
-              <li class="nav-item">
                 <a href="/admin/products" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Lista de Produtos</p>
+                  <p>Lista</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="/admin/products/create" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Novo Produto</p>
+                  <p>Novo</p>
                 </a>
-              </li>                    
+              </li>
             </ul>
           </li>
+
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

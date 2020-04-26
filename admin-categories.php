@@ -150,7 +150,7 @@ $app->get("/admin/categories/:idcategory/products/:idproduct/remove", function($
 
 	$category->get((int)$idcategory);
 
-	$productsct = new Product();
+	$product = new Product();
 
 	$product->get((int)$idproduct);
 

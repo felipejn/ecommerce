@@ -10,7 +10,7 @@
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="/admin">Home</a></li>
-              <li class="breadcrumb-item active">Usuários</li>
+              <li class="breadcrumb-item active"><a href="/admin/users">Usuários</a></li>
               <li class="breadcrumb-item active">Lista</li>
             </ol>
           </div><!-- /.col -->

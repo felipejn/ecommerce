@@ -10,8 +10,8 @@
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="/admin">Home</a></li>
-              <li class="breadcrumb-item active">Produtos</li>
-              <li class="breadcrumb-item active">Editar Categoria</li>
+              <li class="breadcrumb-item active"><a href="/admin/categories">Categorias</a></li>
+              <li class="breadcrumb-item active">Editar</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -24,9 +24,6 @@
   <div class="row">
   	<div class="col-md-12">
   		<div class="box box-primary">
-        <div class="box-header with-border">
-          <h3 class="box-title">Editar Categoria</h3>
-        </div>
         <!-- /.box-header -->
         <!-- form start -->
         <form role="form" action="/admin/categories/<?php echo htmlspecialchars( $category["idcategory"], ENT_COMPAT, 'UTF-8', FALSE ); ?>" method="post">
