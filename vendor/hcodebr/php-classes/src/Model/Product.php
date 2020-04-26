@@ -150,6 +150,33 @@ class Product extends Model
 
 	}
 
+	public function getFromUrl($desurl) 
+	{
+
+		$sql = new Sql();
+
+		$rows = $sql->select("SELECT * FROM tb_products WHERE desurl = :desurl LIMIT 1", array(
+			":desurl"=>"$desurl"
+		));
+
+		$this->setData($rows[0]);
+
+	}
+
+	public function getCategories()
+	{
+
+		$sql = new Sql();
+		// Poderia usar USING no lugar de ON, porém só funciona no MySql
+		// No Sql Server deve ser usado ON
+		return $sql->select("SELECT * FROM tb_categories a INNER JOIN
+			tb_categoriesproducts b ON a.idcategory = b.idcategory
+			WHERE b.idproduct = :idproduct", array(
+			":idproduct"=>$this->getidproduct()
+		));
+
+	}
+
 }
 
 ?>

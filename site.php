@@ -48,11 +48,18 @@ $app->get("/categories/:idcategory", function($idcategory) {
 });
 
 // Product GET
-$app->get("/products/:idproduct", function($idproduct) {
+$app->get("/products/:desurl", function($desurl) {
 
 	$product = new Product();
 
-	$product->get((int)$idproduct);
+	$product->getFromUrl($desurl);
+
+	$page = new Page();
+
+	$page->setTpl("product-detail", array(
+		"product"=>$product->getValues(),
+		"categories"=>$product->getCategories()
+	));
 
 });
 

@@ -50,7 +50,8 @@ class Category extends Model
 
 		$sql = new Sql();
 
-		$sql->query("DELETE FROM tb_categories WHERE idcategory = :idcategory", array(
+		// Fiz essa procedure para apagar a categoria também em tb_categoriesproducts
+		$sql->query("CALL sp_categories_delete(:idcategory)", array(
 			":idcategory"=>$this->getidcategory()
 		));
 
