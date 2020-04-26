@@ -4,8 +4,104 @@
 		"selected_items":
 		[
 			[
+				"cate",
+				"categories"
+			],
+			[
+				"tb_",
+				"tb_categoriesproducts"
+			],
+			[
 				"id",
-				"iduser"
+				"idcategory"
+			],
+			[
+				"user",
+				"User"
+			],
+			[
+				"S",
+				"Sql"
+			],
+			[
+				"produ",
+				"productsRelated"
+			],
+			[
+				"produt",
+				"products"
+			],
+			[
+				"list",
+				"list"
+			],
+			[
+				"imagecre",
+				"imagecreatefromjpeg"
+			],
+			[
+				"ex",
+				"extension"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"Lis",
+				"listAll"
+			],
+			[
+				"ca",
+				"category"
+			],
+			[
+				"Page",
+				"PageAdmin"
+			],
+			[
+				"set",
+				"setTpl"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"tb",
+				"tb_persons"
+			],
+			[
+				"dt",
+				"dtrecovery"
+			],
+			[
+				"base64",
+				"base64_decode"
+			],
+			[
+				"data",
+				"dataRecovery"
+			],
+			[
+				"open",
+				"openssl_encrypt"
+			],
+			[
+				"base64_",
+				"base64_encode"
+			],
+			[
+				"result",
+				"results2"
+			],
+			[
+				"post",
+				"_POST"
 			],
 			[
 				"ver",
@@ -28,16 +124,8 @@
 				"User"
 			],
 			[
-				"S",
-				"SESSION"
-			],
-			[
 				"var",
 				"var_dump"
-			],
-			[
-				"pass",
-				"password"
 			],
 			[
 				"Pa",
@@ -98,10 +186,6 @@
 			[
 				"openssl",
 				"openssl_decrypt"
-			],
-			[
-				"open",
-				"openssl"
 			],
 			[
 				"SECRET",
@@ -184,31 +268,83 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/felipe/Documents/projeto_website"
+		"/Users/felipe/Documents/projeto_website",
+		"/Users/felipe/Documents/projeto_website/vendor",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/DB",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Model",
+		"/Users/felipe/Documents/projeto_website/views",
+		"/Users/felipe/Documents/projeto_website/views/admin",
+		"/Users/felipe/Documents/projeto_website/views/email"
 	],
 	"file_history":
 	[
-		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Model/User.php",
-		"/Users/felipe/Documents/projeto_website/index.php",
 		"/Users/felipe/Documents/projeto_website/views/admin/header.html",
-		"/Users/felipe/Documents/projeto_website/views/admin/login.html",
-		"/Users/felipe/Desktop/login.html",
-		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/PageAdmin.php",
+		"/Users/felipe/Documents/projeto_website/admin-categories.php",
+		"/Users/felipe/Documents/projeto_website/res/admin/index.html",
+		"/Users/felipe/Documents/projeto_website/views/admin/categories-products.html",
+		"/Users/felipe/Documents/projeto_website/views/admin/categories.html",
+		"/Users/felipe/Documents/projeto_website/views/admin/users-create.html",
+		"/Users/felipe/Documents/projeto_website/views/admin/users-update.html",
+		"/Users/felipe/Documents/projeto_website/views/admin/categories-update.html",
+		"/Users/felipe/Documents/projeto_website/views/admin/products.html",
+		"/Users/felipe/Documents/projeto_website/views/admin/products-create.html",
+		"/Users/felipe/Documents/projeto_website/views/admin/products-update.html",
+		"/Users/felipe/Documents/projeto_website/views/admin/categories-create.html",
+		"/Users/felipe/Documents/projeto_website/views/admin/users.html",
+		"/Users/felipe/Documents/projeto_website/res/admin/pages/examples/legacy-user-menu.html",
+		"/Users/felipe/Documents/projeto_website/index.php",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Model/Category.php",
+		"/Users/felipe/Documents/projeto_website/site.php",
+		"/Users/felipe/Documents/projeto_website/views/header.html",
+		"/Users/felipe/Documents/projeto_website/views/category.html",
+		"/Users/felipe/Documents/projeto_website/views/index.html",
 		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Model.php",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Model/Product.php",
+		"/Users/felipe/Desktop/Coding/111 - Produtos vs Categorias/tb_categoriesproducts.sql",
+		"/Users/felipe/Documents/projeto_website/views/admin/index.html",
+		"/Users/felipe/Documents/projeto_website/functions.php",
+		"/Users/felipe/Documents/projeto_website/admin-products.php",
+		"/Users/felipe/Documents/projeto_website/views-cache/index.cce8638950748aae1b3fc9c78c72ae12.rtpl.php",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Model/User.php",
+		"/Users/felipe/Desktop/Coding/110 - Products/products.sql",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/DB/Sql.php",
+		"/Users/felipe/Documents/projeto_website/admin.php",
+		"/Users/felipe/Documents/projeto_website/admin-users.php",
 		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Page.php",
+		"/Users/felipe/Desktop/Coding/109 - CRUD Produtos/Produtos template/sp_products_save.sql",
+		"/Users/felipe/Documents/projeto_website/views/footer.html",
+		"/Users/felipe/Documents/projeto_website/views/categories-menu.html",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Mailer.php",
+		"/Applications/MAMP/htdocs/seguranca/exemplo-06.php",
+		"/Users/felipe/Desktop/Coding/107 - CRUD Categorias/sp_categories_save.sql",
+		"/Users/felipe/Desktop/Coding/107 - CRUD Categorias/tb_categories.sql",
+		"/Users/felipe/Documents/projeto_website/views/admin/forgot-reset-success.html",
+		"/Users/felipe/Documents/projeto_website/views/admin/forgot.html",
+		"/Users/felipe/Documents/projeto_website/views/email/forgot.html",
+		"/Users/felipe/Documents/projeto_website/composer.json",
+		"/Applications/MAMP/htdocs/email/composer.json",
+		"/Users/felipe/Documents/projeto_website/views/admin/forgot-sent.html",
+		"/Applications/MAMP/htdocs/email/index.php",
+		"/Users/felipe/Documents/projeto_website/views/admin/login.html",
+		"/Users/felipe/Documents/projeto_website/views-cache/users-update.2a35ec5ebb911fbb8cb5057617d303da.rtpl.php",
+		"/Users/felipe/Desktop/Coding/Coding Links.html",
+		"/Users/felipe/Desktop/lara.html",
+		"/Users/felipe/Desktop/Coding/105 - CRUD/db_ecommerce.sql",
+		"/Users/felipe/Documents/projeto_website/res/admin/docs/assets/plugins/jquery/jquery.js",
+		"/Users/felipe/Desktop/Coding/105 - CRUD/templates/users.html",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/PageAdmin.php",
+		"/Users/felipe/Desktop/login.html",
 		"/Users/felipe/Documents/projeto_website/views/admin/footer.html",
 		"/Users/felipe/Desktop/admin-users.html",
 		"/Users/felipe/Desktop/htaccess",
-		"/Users/felipe/Documents/projeto_website/views/admin/users.html",
 		"/Users/felipe/Documents/projeto_website/ecommerce.sublime-project",
-		"/Users/felipe/Documents/projeto_website/res/admin/pages/examples/legacy-user-menu.html",
-		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/DB/Sql.php",
 		"/Users/felipe/Documents/projeto_website/.htaccess",
 		"/Users/felipe/Documents/projeto_website/res/admin/pages/examples/login.html",
 		"/Users/felipe/Desktop/Coding/99 - Configurando o Projeto/httpd-vhosts.conf",
-		"/Users/felipe/Documents/projeto_website/views/admin/index.html",
 		"/Users/felipe/Documents/projeto_website/res/admin/starter.html",
-		"/Users/felipe/Desktop/Coding/Coding Links.html",
 		"/Applications/MAMP/conf/apache/extra/httpd-vhosts.conf",
 		"/Applications/MAMP/conf/apache/httpd.conf",
 		"/Users/felipe/Dropbox/projeto_website/views/footer.html",
@@ -230,7 +366,6 @@
 		"/Users/felipe/Desktop/Coding Links.html",
 		"/Applications/MAMP/htdocs/ecommerce/index.php",
 		"/Applications/MAMP/htdocs/seguranca/exemplo-07.php",
-		"/Applications/MAMP/htdocs/seguranca/exemplo-06.php",
 		"/Applications/MAMP/htdocs/seguranca/teste.php",
 		"/Applications/MAMP/htdocs/xss/exemplo-01.php",
 		"/Applications/MAMP/htdocs/seguranca/exemplo-05.php",
@@ -244,13 +379,14 @@
 	],
 	"find":
 	{
-		"height": 29.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 158.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -258,6 +394,60 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"alexander",
+			"forms",
+			"dashboard",
+			"home",
+			"values",
+			"ver detalhes",
+			"path",
+			"name",
+			"vlweight",
+			"User",
+			"new User",
+			"new user",
+			"page",
+			"categories",
+			"list",
+			"products",
+			"idcategory",
+			"idproduct",
+			"idcategory",
+			"vllength",
+			"idproduct",
+			"desproduct",
+			"categoria",
+			"src=\"res/",
+			"href=\"res/",
+			"href",
+			"catego",
+			"produtos",
+			"setdata",
+			"update",
+			"setdata",
+			"set",
+			"Usuários",
+			"delete",
+			"{",
+			"get()",
+			"get",
+			"{",
+			"$data",
+			"dat$a",
+			"send",
+			"$mail",
+			"esqueci",
+			"$value",
+			"2a35ec5ebb911fbb8cb5057617d303da",
+			"novo",
+			"sp_users_save",
+			"sp_user",
+			"getValues",
+			"starter page",
+			"starterpage",
+			"$returnHTML",
+			"$value",
+			"value",
 			"hres",
 			"https:",
 			"lista",
@@ -308,6 +498,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"value",
+			"src=\"/res/",
+			"href=\"/res/",
+			"$this->mail",
 			"href",
 			"hres=\"/res",
 			"src=\"/res/",
@@ -339,7 +533,7 @@
 	},
 	"input":
 	{
-		"height": 39.0
+		"height": 41.0
 	},
 	"layout":
 	{
@@ -372,7 +566,7 @@
 	"project": "ecommerce.sublime-project",
 	"replace":
 	{
-		"height": 54.0
+		"height": 71.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -409,7 +603,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 296.0,
 	"status_bar_visible": true,
 	"template_settings":
