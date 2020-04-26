@@ -28,7 +28,7 @@ $app->get("/categories/:idcategory", function($idcategory) {
 
 	$page->setTpl("category", array(
 		"category"=>$category->getValues(),
-		"products"=>[]
+		"products"=>Product::Checklist($category->getProducts())
 	));
 
 });
@@ -39,8 +39,6 @@ $app->get("/products/:idproduct", function($idproduct) {
 	$product = new Product();
 
 	$product->get((int)$idproduct);
-
-
 
 });
 
