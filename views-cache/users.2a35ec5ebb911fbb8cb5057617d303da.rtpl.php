@@ -57,6 +57,7 @@
               </table>
             </div>
             <!-- /.box-body -->
+            <center><a href="/admin/users/create" class="btn btn-primary"><i class = "fa fa-user"></i> Novo Usuário</a></center>
           </div>
   	</div>
   </div>

@@ -62,6 +62,9 @@
             </div>
             <!-- /.box-body -->
           </div>
+          <div class="box">
+            <center><a href="/admin/products/create" class="btn btn-primary"><i class = "fa fa-box"></i> Novo Produto</a></center>
+        </div>
   	</div>
   </div>
 

@@ -75,6 +75,8 @@ class Product extends Model
 			":idproduct"=>$this->getidproduct()
 		));
 
+		Product::deleteProductPhoto($this->getidproduct());
+
 	}
 
 	public function checkPhoto()
@@ -174,6 +176,26 @@ class Product extends Model
 			WHERE b.idproduct = :idproduct", array(
 			":idproduct"=>$this->getidproduct()
 		));
+
+	}
+
+	// Este método não foi ensinado no curso*
+	private static function deleteProductPhoto($idproduct)
+	{
+
+		$path = $_SERVER["DOCUMENT_ROOT"] . DIRECTORY_SEPARATOR . 
+			"res" . DIRECTORY_SEPARATOR . 
+			"site". DIRECTORY_SEPARATOR .
+			"img". DIRECTORY_SEPARATOR .
+			"products" . DIRECTORY_SEPARATOR .
+			$idproduct . ".jpg";
+
+		if (file_exists($path))
+		{
+
+			unlink($path);
+
+		}
 
 	}
 

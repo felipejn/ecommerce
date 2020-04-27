@@ -52,7 +52,10 @@
               </table>
             </div>
             <!-- /.box-body -->
-          </div>
+        <div class="box">
+          <center><a href="/admin/categories/create" class="btn btn-primary"><i class = "fa fa-edit"></i> Nova Categoria</a></center>
+        </div>
+      </div>
   	</div>
   </div>
 
