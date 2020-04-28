@@ -95,7 +95,7 @@ $app->post("/admin/products/:idproduct", function($idproduct) {
 	$product->save();
 
 	// Se error = 0 , há arquivo para ser enviado
-	if ($_FILES["file"]["error"] === 0) 
+	if ($_FILES["file"]["error"] === 0)
 	{
 		$product->setPhoto($_FILES["file"]);
 	}
