@@ -309,6 +309,18 @@ class Cart extends Model
 
 		}
 
+		// Atualiza os valores de frete e prazo caso não aja nenhum produto no carrinho
+		$totals = $this->getProductsTotals();
+		
+		if ($totals["nrqtd"] == 0) 
+		{
+			
+			$this->setvlfreight(0);
+			$this->setnrdays(0);
+		
+		}
+
+		
 	}
 
 	public function getValues()
