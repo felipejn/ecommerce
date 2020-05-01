@@ -64,7 +64,7 @@ $app->get("/admin/users/:iduser", function($iduser) {
 
 });
 
-// Create New - POST
+// New User- POST
 $app->post("/admin/users/create", function() {
 
 	User::verifyLogin();
@@ -73,10 +73,6 @@ $app->post("/admin/users/create", function() {
 
 	// Se $var tem valor, então é 1. Senão é 0.
 	$_POST["inadmin"] = (isset($_POST["inadmin"])? 1 : 0);
-
-	$_POST["despassword"] = password_hash($_POST["despassword"], PASSWORD_DEFAULT, [
-		"cost"=>12
-	]);
 
 	$user->setData($_POST);
 

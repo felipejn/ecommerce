@@ -4,6 +4,8 @@ use \Hcode\Page;
 Use \Hcode\Model\Category;
 Use \Hcode\Model\Product;  
 Use \Hcode\Model\Cart;
+Use \Hcode\Model\Address;
+Use \Hcode\Model\User;
 
 // ROOT GET
 $app->get('/', function() {
@@ -145,6 +147,63 @@ $app->post("/cart/freight", function() {
 
 	header("Location: /cart");
 
+	exit;
+
+});
+
+// Checkout Cart
+$app->get("/checkout", function() {
+
+	User::verifyLogin(false);
+
+	$cart = Cart::getFromSession();
+
+	$address = new Address();
+
+	$page = new Page();
+
+	$page->setTpl("checkout", array(
+		"cart"=>$cart->getValues(),
+		"address"=>$address->getValues()
+	));
+
+});
+
+// Login Customer GET
+$app->get("/login", function() {
+
+	$page = new Page();
+
+	$page->setTpl("login", array(
+		"error"=>User::getError()
+	));
+
+});
+
+// Login Customer POST
+$app->post("/login", function() {
+
+	try {
+	
+		User::login($_POST["login"], $_POST["password"]);
+		
+	} catch(Exception $e) {
+
+		User::setError($e->getMessage());
+
+	} 
+
+	header("Location: /checkout");
+
+	exit;
+
+});
+
+// Logout Customer
+$app->get("/logout", function() {
+
+	User::logout();
+	header("Location: /");
 	exit;
 
 });

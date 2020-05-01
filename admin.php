@@ -14,6 +14,8 @@ $app->get('/admin', function() {
 
 });
 
+
+// Login Admin GET
 $app->get('/admin/login', function() {
 
 	$page = new PageAdmin([
@@ -24,6 +26,7 @@ $app->get('/admin/login', function() {
 	$page->setTpl("login");
 });
 
+// Login Admin POST
 $app->post('/admin/login', function() {
 	
 	User::login($_POST["login"], $_POST["password"]);
@@ -34,6 +37,7 @@ $app->post('/admin/login', function() {
 
 });
 
+// Logout Admin
 $app->get('/admin/logout', function() {
 
 	User::logout();

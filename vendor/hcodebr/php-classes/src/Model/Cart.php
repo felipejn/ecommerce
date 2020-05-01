@@ -319,7 +319,6 @@ class Cart extends Model
 			$this->setnrdays(0);
 		
 		}
-
 		
 	}
 
