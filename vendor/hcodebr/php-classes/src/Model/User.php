@@ -211,7 +211,7 @@ class User extends Model
 
 	}
 
-	public static function getForgot($email)
+	public static function getForgot($email, $inadmin = true)
 	{
 
 		$sql = new Sql();
@@ -246,7 +246,16 @@ class User extends Model
 
 				$code = base64_encode(openssl_encrypt($dataRecovery["idrecovery"], "AES-128-CBC", User::SECRET, 0, User::SECRET_IV));
 
-				$link = "http://www.projeto.test/admin/forgot/reset?code=$code";
+				if ($inadmin == true)
+				{
+				
+					$link = "http://www.projeto.test/admin/forgot/reset?code=$code";
+
+				} else {
+
+					$link = "http://www.projeto.test/forgot/reset?code=$code";
+
+				}
 
 				$mailer = new Mailer($data["desemail"], $data["desperson"], "Redefinir senha da Hcode Store", "forgot", array(
 					"name"=>"$data[desperson]",
