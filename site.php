@@ -318,6 +318,8 @@ $app->post("/login", function() {
 $app->get("/logout", function() {
 
 	User::logout();
+	Cart::removeFromSession();
+	session_regenerate_id();
 	header("Location: /");
 	exit;
 
