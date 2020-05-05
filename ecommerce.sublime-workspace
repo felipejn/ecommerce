@@ -4,16 +4,196 @@
 		"selected_items":
 		[
 			[
+				"lis",
+				"listAll"
+			],
+			[
+				"new_pass",
+				"new_pass_confirm"
+			],
+			[
+				"new",
+				"new_pass"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"getfo",
+				"getFromSession"
+			],
+			[
+				"uSER",
+				"User"
+			],
+			[
+				"pass",
+				"password_verify"
+			],
+			[
+				"curre",
+				"current_pass"
+			],
+			[
+				"join",
+				"JOIN"
+			],
+			[
+				"ida",
+				"idaddress"
+			],
+			[
+				"set",
+				"setTpl"
+			],
+			[
+				"add",
+				"address"
+			],
+			[
+				"re",
+				"results"
+			],
+			[
+				"produc",
+				"products"
+			],
+			[
+				"str_rep",
+				"str_replace"
+			],
+			[
+				"des",
+				"desemail"
+			],
+			[
+				"register",
+				"registerValues"
+			],
+			[
+				"REGIS",
+				"ERROR_REGISTER"
+			],
+			[
+				"ERROR_",
+				"ERROR_REGISTER"
+			],
+			[
+				"loca",
+				"Location"
+			],
+			[
+				"getPass",
+				"getPasswordHash"
+			],
+			[
+				"getdes",
+				"getdespassword"
+			],
+			[
+				"utf",
+				"utf8_encode"
+			],
+			[
+				"ut",
+				"utf8_encode"
+			],
+			[
+				"utf8",
+				"utf8_decode"
+			],
+			[
+				"utf8_",
+				"utf8_encode"
+			],
+			[
+				"clear",
+				"clearError"
+			],
+			[
+				"Add",
+				"Address"
+			],
+			[
+				"setvl",
+				"setvlfreight"
+			],
+			[
+				"getPro",
+				"getProductsTotals"
+			],
+			[
+				"clea",
+				"clearMsgError"
+			],
+			[
+				"SE",
+				"SESSION_ERROR"
+			],
+			[
+				"stat",
+				"static"
+			],
+			[
+				"conv",
+				"convertValueToDecimal"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"ex",
+				"exit"
+			],
+			[
+				"vl",
+				"vlweight"
+			],
+			[
+				"simplexml",
+				"simplexml_load_file"
+			],
+			[
+				"getpro",
+				"getProductsTotals"
+			],
+			[
+				"str_",
+				"str_replace"
+			],
+			[
+				"getid",
+				"getiduser"
+			],
+			[
+				"getFrom",
+				"getFromSession"
+			],
+			[
+				"id",
+				"idcart"
+			],
+			[
+				"Dele",
+				"deleteProductPhoto"
+			],
+			[
+				"produ",
+				"product"
+			],
+			[
 				"cate",
-				"categories"
+				"category"
+			],
+			[
+				"resul",
+				"resultTotal"
 			],
 			[
 				"tb_",
 				"tb_categoriesproducts"
-			],
-			[
-				"id",
-				"idcategory"
 			],
 			[
 				"user",
@@ -22,10 +202,6 @@
 			[
 				"S",
 				"Sql"
-			],
-			[
-				"produ",
-				"productsRelated"
 			],
 			[
 				"produt",
@@ -38,10 +214,6 @@
 			[
 				"imagecre",
 				"imagecreatefromjpeg"
-			],
-			[
-				"ex",
-				"extension"
 			],
 			[
 				"pro",
@@ -58,18 +230,6 @@
 			[
 				"Page",
 				"PageAdmin"
-			],
-			[
-				"set",
-				"setTpl"
-			],
-			[
-				"_",
-				"_POST"
-			],
-			[
-				"pass",
-				"password"
 			],
 			[
 				"tb",
@@ -240,6 +400,14 @@
 		"selected_items":
 		[
 			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
 				"materia",
 				"Material Theme: Activate theme"
 			],
@@ -262,13 +430,14 @@
 		"menu_visible": true,
 		"show_minimap": false,
 		"show_open_files": false,
-		"show_tabs": false,
+		"show_tabs": true,
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
 	"expanded_folders":
 	[
 		"/Users/felipe/Documents/projeto_website",
+		"/Users/felipe/Documents/projeto_website/res",
 		"/Users/felipe/Documents/projeto_website/vendor",
 		"/Users/felipe/Documents/projeto_website/vendor/hcodebr",
 		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes",
@@ -281,43 +450,79 @@
 	],
 	"file_history":
 	[
+		"/Users/felipe/Documents/projeto_website/admin-users.php",
+		"/Users/felipe/Documents/projeto_website/views/admin/users.html",
+		"/Users/felipe/Desktop/Coding/Projeto E Commerce/126 - Usuários Paginação e Busca/users.html",
+		"/Users/felipe/Documents/projeto_website/functions.php",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Model/User.php",
+		"/Users/felipe/Documents/projeto_website/views/admin/orders.html",
+		"/Users/felipe/Documents/projeto_website/views/admin/order-status.html",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Model/Order.php",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Model/Cart.php",
+		"/Users/felipe/Documents/projeto_website/views/admin/order.html",
+		"/Users/felipe/Documents/projeto_website/admin-orders.php",
+		"/Users/felipe/Documents/projeto_website/site.php",
 		"/Users/felipe/Documents/projeto_website/views/admin/header.html",
+		"/Users/felipe/Documents/projeto_website/views/payment.html",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Model/OrderStatus.php",
+		"/Users/felipe/Documents/projeto_website/views/header.html",
+		"/Users/felipe/Documents/projeto_website/index.php",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Model/Category.php",
+		"/Users/felipe/Documents/projeto_website/views/profile-change-password.html",
+		"/Users/felipe/Documents/projeto_website/views/profile-menu.html",
+		"/Users/felipe/Documents/projeto_website/views/cart.html",
+		"/Users/felipe/Documents/projeto_website/views/profile-orders-detail.html",
+		"/Users/felipe/Documents/projeto_website/views/profile-orders.html",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Model/Product.php",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Model.php",
+		"/Applications/MAMP/htdocs/boletophp/boleto_itau.php",
+		"/Users/felipe/Documents/projeto_website/res/boletophp/include/funcoes_itau.php",
+		"/Users/felipe/Documents/projeto_website/res/boletophp/include/layout_itau.php",
+		"/Users/felipe/Documents/projeto_website/views/checkout.html",
+		"/Users/felipe/Documents/projeto_website/res/boletophp/boleto_itau.php",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Model/Address.php",
+		"/Users/felipe/Desktop/Coding/Projeto E Commerce/122 - Finalizar pedido e gerar boleto/tb_orders.sql",
+		"/Users/felipe/Desktop/Coding/Projeto E Commerce/122 - Finalizar pedido e gerar boleto/sp_orders_save.sql",
+		"/Users/felipe/Documents/projeto_website/views/login.html",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Mailer.php",
+		"/Users/felipe/Desktop/Coding/Projeto E Commerce/121 - Web Service de CEP/sp_addresses_save.sql",
+		"/Users/felipe/Desktop/Coding/Projeto E Commerce/121 - Web Service de CEP/tb_addresses.sql",
+		"/Users/felipe/Documents/projeto_website/views/profile.html",
+		"/Users/felipe/Documents/projeto_website/views/admin/users-update.html",
+		"/Users/felipe/Documents/projeto_website/admin.php",
+		"/Users/felipe/Desktop/Coding/Projeto E Commerce/Criação banco de dados projeto.sql",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/DB/Sql.php",
+		"/Users/felipe/Documents/projeto_website/views/product-detail.html",
+		"/Users/felipe/Documents/projeto_website/views/category.html",
+		"/Users/felipe/Documents/projeto_website/views/index.html",
+		"/Users/felipe/Desktop/Coding/Coding Links.html",
+		"/Users/felipe/Desktop/Coding/Criação banco de dados projeto.sql",
+		"/Users/felipe/Desktop/114 Layout e Classe Carrinho de Compras/tb_carts.sql",
+		"/Users/felipe/Desktop/114 Layout e Classe Carrinho de Compras/sp_carts_save.sql",
+		"/Users/felipe/Desktop/Coding/98 - Projetando o Banco de Dados/db-ecommerce 2019.sql",
+		"/Users/felipe/Documents/projeto_website/admin-products.php",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/PageAdmin.php",
+		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Page.php",
+		"/Users/felipe/Documents/projeto_website/views/admin/categories-create.html",
+		"/Users/felipe/Documents/projeto_website/views/admin/categories.html",
+		"/Users/felipe/Documents/projeto_website/views/admin/products.html",
+		"/Users/felipe/Documents/projeto_website/views/admin/footer.html",
+		"/Users/felipe/Documents/projeto_website/views/admin/products-update.html",
+		"/Applications/MAMP/htdocs/filesystem/UNLINK/exemplo-01.php",
 		"/Users/felipe/Documents/projeto_website/admin-categories.php",
 		"/Users/felipe/Documents/projeto_website/res/admin/index.html",
 		"/Users/felipe/Documents/projeto_website/views/admin/categories-products.html",
-		"/Users/felipe/Documents/projeto_website/views/admin/categories.html",
 		"/Users/felipe/Documents/projeto_website/views/admin/users-create.html",
-		"/Users/felipe/Documents/projeto_website/views/admin/users-update.html",
 		"/Users/felipe/Documents/projeto_website/views/admin/categories-update.html",
-		"/Users/felipe/Documents/projeto_website/views/admin/products.html",
 		"/Users/felipe/Documents/projeto_website/views/admin/products-create.html",
-		"/Users/felipe/Documents/projeto_website/views/admin/products-update.html",
-		"/Users/felipe/Documents/projeto_website/views/admin/categories-create.html",
-		"/Users/felipe/Documents/projeto_website/views/admin/users.html",
 		"/Users/felipe/Documents/projeto_website/res/admin/pages/examples/legacy-user-menu.html",
-		"/Users/felipe/Documents/projeto_website/index.php",
-		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Model/Category.php",
-		"/Users/felipe/Documents/projeto_website/site.php",
-		"/Users/felipe/Documents/projeto_website/views/header.html",
-		"/Users/felipe/Documents/projeto_website/views/category.html",
-		"/Users/felipe/Documents/projeto_website/views/index.html",
-		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Model.php",
-		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Model/Product.php",
 		"/Users/felipe/Desktop/Coding/111 - Produtos vs Categorias/tb_categoriesproducts.sql",
 		"/Users/felipe/Documents/projeto_website/views/admin/index.html",
-		"/Users/felipe/Documents/projeto_website/functions.php",
-		"/Users/felipe/Documents/projeto_website/admin-products.php",
 		"/Users/felipe/Documents/projeto_website/views-cache/index.cce8638950748aae1b3fc9c78c72ae12.rtpl.php",
-		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Model/User.php",
 		"/Users/felipe/Desktop/Coding/110 - Products/products.sql",
-		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/DB/Sql.php",
-		"/Users/felipe/Documents/projeto_website/admin.php",
-		"/Users/felipe/Documents/projeto_website/admin-users.php",
-		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Page.php",
 		"/Users/felipe/Desktop/Coding/109 - CRUD Produtos/Produtos template/sp_products_save.sql",
 		"/Users/felipe/Documents/projeto_website/views/footer.html",
 		"/Users/felipe/Documents/projeto_website/views/categories-menu.html",
-		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/Mailer.php",
 		"/Applications/MAMP/htdocs/seguranca/exemplo-06.php",
 		"/Users/felipe/Desktop/Coding/107 - CRUD Categorias/sp_categories_save.sql",
 		"/Users/felipe/Desktop/Coding/107 - CRUD Categorias/tb_categories.sql",
@@ -330,14 +535,11 @@
 		"/Applications/MAMP/htdocs/email/index.php",
 		"/Users/felipe/Documents/projeto_website/views/admin/login.html",
 		"/Users/felipe/Documents/projeto_website/views-cache/users-update.2a35ec5ebb911fbb8cb5057617d303da.rtpl.php",
-		"/Users/felipe/Desktop/Coding/Coding Links.html",
 		"/Users/felipe/Desktop/lara.html",
 		"/Users/felipe/Desktop/Coding/105 - CRUD/db_ecommerce.sql",
 		"/Users/felipe/Documents/projeto_website/res/admin/docs/assets/plugins/jquery/jquery.js",
 		"/Users/felipe/Desktop/Coding/105 - CRUD/templates/users.html",
-		"/Users/felipe/Documents/projeto_website/vendor/hcodebr/php-classes/src/PageAdmin.php",
 		"/Users/felipe/Desktop/login.html",
-		"/Users/felipe/Documents/projeto_website/views/admin/footer.html",
 		"/Users/felipe/Desktop/admin-users.html",
 		"/Users/felipe/Desktop/htaccess",
 		"/Users/felipe/Documents/projeto_website/ecommerce.sublime-project",
@@ -394,103 +596,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"alexander",
-			"forms",
-			"dashboard",
-			"home",
-			"values",
-			"ver detalhes",
-			"path",
-			"name",
-			"vlweight",
-			"User",
-			"new User",
-			"new user",
-			"page",
-			"categories",
-			"list",
+			"var_dump",
+			"getproducts",
 			"products",
-			"idcategory",
-			"idproduct",
-			"idcategory",
-			"vllength",
-			"idproduct",
-			"desproduct",
-			"categoria",
-			"src=\"res/",
-			"href=\"res/",
-			"href",
-			"catego",
-			"produtos",
-			"setdata",
+			"cart",
+			"error",
 			"update",
-			"setdata",
-			"set",
-			"Usuários",
+			"ERROR",
+			"Error",
+			"User",
+			"geterror",
+			"error",
+			"carrinho",
+			"logout",
+			"subtotal",
+			"/boleto",
+			"boleto",
+			"format_date",
+			"format",
+			"format_real",
 			"delete",
-			"{",
-			"get()",
-			"get",
-			"{",
-			"$data",
-			"dat$a",
-			"send",
-			"$mail",
-			"esqueci",
-			"$value",
-			"2a35ec5ebb911fbb8cb5057617d303da",
-			"novo",
-			"sp_users_save",
-			"sp_user",
-			"getValues",
-			"starter page",
-			"starterpage",
-			"$returnHTML",
-			"$value",
-			"value",
-			"hres",
-			"https:",
-			"lista",
-			"//",
-			"getvalues",
-			"src",
-			"src=\"res",
-			"href=\"res",
-			"src",
-			"href",
-			"href=\"res",
-			"href",
-			"src",
-			"src=\"res/",
-			"src",
-			"href",
-			"href=\"res/",
-			"href",
-			"src",
-			"href",
-			"href=\"res/",
-			"\"admin",
-			"value",
-			"Users::",
-			"Users",
-			"6",
-			"examples",
-			"href",
-			"sign out",
-			"href=\"../../",
-			"src=\"../../",
-			"src",
-			"href=\"../../",
-			"href",
-			"sign out",
-			"sign ",
-			"signout",
-			"post",
+			"format_real",
+			"format",
+			"formatReal",
+			"produtos",
+			"getpassword",
+			"update",
+			"login",
+			"current_pass",
+			"seterror",
+			"checkout",
+			"checklist",
+			"checklisy",
+			"getProducts",
+			"getproducts",
+			"checkout",
+			"cart",
+			"carrinho",
+			"getproductstotals",
+			"vlsubtotal",
+			"getidcart",
+			"checkout",
+			"order",
+			"getorders",
+			"\"order\"=>",
+			"src=",
+			"fbarcode",
+			"pagamento",
+			"$dadosboleto",
+			"dadosdoboleto",
+			"barcode",
+			"checkout",
+			":",
+			"checkout",
+			"checkou",
+			"vlprice",
+			"checkout",
+			"method",
+			"continuar",
+			"orderstatus",
+			"getcalculate",
+			"iduser",
+			"idorder",
+			"checkout",
+			"atualizar",
+			"$location",
+			"\"Location: /checkout\"",
+			"Location: /checkout",
+			"setdeszip",
+			"Cart",
+			"descountry",
+			"desaddress",
+			"desadress",
+			"error",
+			"setMsgError",
+			"seterrorregister",
+			"seterror",
+			"cart",
+			"User",
+			"desstate",
+			"zipcode",
+			"descity",
+			"zipcode",
+			"idaddress",
+			"atualizar",
+			"distr",
+			"getcalc",
+			"checkout",
+			"update",
+			"getdespassword",
+			"update",
+			"checklogin",
+			"$_POST[\"desemail\"]",
+			"desperson",
+			"usuário inexistente",
+			"mailer",
+			"ERROR_REGISTER",
+			"ErrorRegister",
+			"name",
+			"update",
+			"save",
+			"htmlspecial",
+			"minha",
+			"delete",
+			"forgot",
 			"email",
-			"-f",
-			"src=\"../..",
-			"src",
-			"href=\"../../"
+			"admin",
+			"name",
+			"checklogin",
+			"check",
+			"RegisterError",
+			"ERROR",
+			"var_dump",
+			"name",
+			"utf",
+			"utf8_encode",
+			"utf",
+			"save",
+			"desperson",
+			"update",
+			"save",
+			"login",
+			"getfromsess",
+			"login",
+			"logout",
+			"logtou",
+			"login",
+			"ERROS",
+			"user::login"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -498,6 +731,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Success",
+			"Order",
+			"formatDate",
+			"formatPrice",
+			"Cart::setMsgError",
+			"ErrorRegister",
 			"value",
 			"src=\"/res/",
 			"href=\"/res/",
@@ -529,7 +768,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 27.0
 	},
 	"input":
 	{
