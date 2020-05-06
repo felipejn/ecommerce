@@ -642,6 +642,7 @@ $app->get("/profile/orders", function() {
 
 });
 
+// Change Password GET
 $app->get("/profile/change-password", function () {
 
 	User::verifyLogin(false);
@@ -655,6 +656,7 @@ $app->get("/profile/change-password", function () {
 
 });
 
+// Change Password POST
 $app->post("/profile/change-password", function () {
 
 	User::verifyLogin(false);
@@ -715,9 +717,7 @@ $app->post("/profile/change-password", function () {
 
 	}
 
-	$user->setdespassword(User::getPasswordHash($_POST["new_pass"]));
-
-	$user->update();
+	$user->setPassword(User::getPasswordHash($_POST["new_pass"]));
 
 	User::setSuccess("Senha alterada com sucesso!");
 
