@@ -321,6 +321,8 @@ class User extends Model
 			":iduser"=>$this->getiduser()
 		));
 
+		$this->setdespassword($password);
+
 	}
 
 	public static function setError($msg)
