@@ -25,7 +25,7 @@
   	<div class="col-md-12">
   		<div class="box box-primary">
             
-            <div class="box-tools">
+          <div class="box-tools">
             <form action="/admin/products">
               <div class="input-group input-group-sm" style="width: 150px;">
                 <input type="text" name="search" class="form-control pull-right" placeholder="Search" value="{$search}">
@@ -74,13 +74,13 @@
           <div class="box">
             <center><a href="/admin/products/create" class="btn btn-primary"><i class = "fa fa-box"></i> Novo Produto</a></center>
             <div class="box-footer clearfix">
-            <ul class="pagination pagination-sm no-margin pull-right">
-              <p>Página -></p>
-              {loop="$pages"}
-              <li><a href="{$value.href}">/ {$value.text} /</a></li>
-              {/loop}
-            </ul>
-          </div>
+              <ul class="pagination pagination-sm no-margin pull-right">
+                <p>Página -></p>
+                {loop="$pages"}
+                <li><a href="{$value.href}">/ {$value.text} /</a></li>
+                {/loop}
+              </ul>
+            </div>
         </div>
   	</div>
   </div>

@@ -66,15 +66,15 @@
         <div class="box">
           <center><a href="/admin/categories/create" class="btn btn-primary"><i class = "fa fa-edit"></i> Nova Categoria</a></center>
           <div class="box-footer clearfix">
-          <ul class="pagination pagination-sm no-margin pull-right">
-            <p>Página -></p>
-            <?php $counter1=-1;  if( isset($pages) && ( is_array($pages) || $pages instanceof Traversable ) && sizeof($pages) ) foreach( $pages as $key1 => $value1 ){ $counter1++; ?>
+            <ul class="pagination pagination-sm no-margin pull-right">
+              <p>Página -></p>
+              <?php $counter1=-1;  if( isset($pages) && ( is_array($pages) || $pages instanceof Traversable ) && sizeof($pages) ) foreach( $pages as $key1 => $value1 ){ $counter1++; ?>
 
-            <li><a href="<?php echo htmlspecialchars( $value1["href"], ENT_COMPAT, 'UTF-8', FALSE ); ?>">/ <?php echo htmlspecialchars( $value1["text"], ENT_COMPAT, 'UTF-8', FALSE ); ?> /</a></li>
-            <?php } ?>
+              <li><a href="<?php echo htmlspecialchars( $value1["href"], ENT_COMPAT, 'UTF-8', FALSE ); ?>">/ <?php echo htmlspecialchars( $value1["text"], ENT_COMPAT, 'UTF-8', FALSE ); ?> /</a></li>
+              <?php } ?>
 
-          </ul>
-        </div>
+            </ul>
+          </div>
         </div>
       </div>
   	</div>
