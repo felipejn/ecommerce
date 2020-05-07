@@ -282,8 +282,40 @@ $app->post("/checkout", function() {
 
 	$order->save();
 
-	header("Location: /order/".$order->getidorder());
+	header("Location: /order/".$order->getidorder()."/pagseguro");
 	exit;
+
+});
+
+// PagSeguro Payment GET
+$app->get("/order/:idorder/pagseguro", function($idorder) {
+
+	User::verifyLogin(false);
+
+	$order = new Order();
+
+	$order->get((int)$idorder);
+
+	$cart = $order->getCart();
+
+	$page = new Page([
+		"header"=>false,
+		"footer"=>false
+	]);
+
+	$productsTotals = $cart->getProductsTotals();
+	
+	$freightPerProduct = number_format(($cart->getvlfreight() / $productsTotals["nrqtd"]), 2, '.','');
+	
+	$page->setTpl("payment-pagseguro", array(
+		"order"=>$order->getValues(),
+		"cart"=>$cart->getValues(),
+		"products"=>$cart->getProducts(),
+		"freight"=>$freightPerProduct,
+		"phone"=>array(
+			"areaCode"=>substr($order->getnrphone(), 0, 2),
+			"number"=>substr($order->getnrphone(), 2, strlen($order->getnrphone())))
+	));
 
 });
 
