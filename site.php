@@ -255,6 +255,13 @@ $app->post("/checkout", function() {
 		exit;
 	}
 
+	if (!isset($_POST["payment-method"]) || $_POST["payment-method"] === "")
+	{
+		Address::setMsgError("Informe o método de pagamento.");
+		header("Location: /checkout");
+		exit;
+	}
+
 	$user = User::getFromSession();
 
 	$address = new Address();
@@ -282,7 +289,19 @@ $app->post("/checkout", function() {
 
 	$order->save();
 
-	header("Location: /order/".$order->getidorder()."/pagseguro");
+	switch ((int)$_POST["payment-method"])
+	{
+
+		case 1:
+		header("Location: /order/".$order->getidorder()."/pagseguro");
+		break;
+
+		case 2:
+		header("Location: /order/".$order->getidorder()."/paypal");
+		break;
+
+	}
+
 	exit;
 
 });
@@ -315,6 +334,35 @@ $app->get("/order/:idorder/pagseguro", function($idorder) {
 		"phone"=>array(
 			"areaCode"=>substr($order->getnrphone(), 0, 2),
 			"number"=>substr($order->getnrphone(), 2, strlen($order->getnrphone())))
+	));
+
+});
+
+// Paypal Payment GET
+$app->get("/order/:idorder/paypal", function($idorder) {
+
+	User::verifyLogin(false);
+
+	$order = new Order();
+
+	$order->get((int)$idorder);
+
+	$cart = $order->getCart();
+
+	$page = new Page([
+		"header"=>false,
+		"footer"=>false
+	]);
+
+	$productsTotals = $cart->getProductsTotals();
+	
+	$freightPerProduct = number_format(($cart->getvlfreight() / $productsTotals["nrqtd"]), 2, '.','');
+	
+	$page->setTpl("payment-paypal", array(
+		"order"=>$order->getValues(),
+		"cart"=>$cart->getValues(),
+		"products"=>$cart->getProducts(),
+		"freight"=>$freightPerProduct,
 	));
 
 });
